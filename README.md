@@ -32,7 +32,7 @@
 
 
 
-![1](https://github.com/ultrmlvn/ELK/blob/SQL_2/1.png)
+![1](https://github.com/ultrmlvn/SQL_2/blob/main/1.png)
 
 
 ---
@@ -41,7 +41,7 @@
 
 Получите количество фильмов, продолжительность которых больше средней продолжительности всех фильмов.
 
-![2](https://github.com/ultrmlvn/ELK/blob/SQL_2/2.png)
+![2](https://github.com/ultrmlvn/SQL_2/blob/main/2.png)
 
 ---
 
@@ -49,6 +49,6 @@
 
 Получите информацию, за какой месяц была получена наибольшая сумма платежей, и добавьте информацию по количеству аренд за этот месяц.
 
-![3](https://github.com/ultrmlvn/ELK/blob/SQL_2/3.png)
+![3](https://github.com/ultrmlvn/SQL_2/blob/main/3.png)
 
 ---
