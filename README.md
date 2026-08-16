@@ -22,42 +22,33 @@
 
 ---
 
-### Задание 1. Elasticsearch
+### Задание 1. 
 
-Установите и запустите Elasticsearch, после чего поменяйте параметр cluster_name на случайный.
+Одним запросом получите информацию о магазине, в котором обслуживается более 300 покупателей, и выведите в результат следующую информацию:
 
-Приведите скриншот команды 'curl -X GET 'localhost:9200/_cluster/health?pretty', сделанной на сервере с установленным Elasticsearch. Где будет виден нестандартный cluster_name.
+фамилия и имя сотрудника из этого магазина;
+город нахождения магазина;
+количество пользователей, закреплённых в этом магазине.
 
 
-![1](https://github.com/ultrmlvn/ELK/blob/main/1.png)
 
+![1](https://github.com/ultrmlvn/ELK/blob/SQL_2/1.png)
 
----
-
-### Задание 2. Kibana
-
-Установите и запустите Kibana.
-
-Приведите скриншот интерфейса Kibana на странице http://<ip вашего сервера>:5601/app/dev_tools#/console, где будет выполнен запрос GET /_cluster/health?pretty.
-
-![2](https://github.com/ultrmlvn/ELK/blob/main/2.png)
 
 ---
 
-### Задание 3. Logstash
+### Задание 2. 
 
-Установите и запустите Logstash и Nginx. С помощью Logstash отправьте access-лог Nginx в Elasticsearch.
+Получите количество фильмов, продолжительность которых больше средней продолжительности всех фильмов.
 
-Приведите скриншот интерфейса Kibana, на котором видны логи Nginx.
-
-![3](https://github.com/ultrmlvn/ELK/blob/main/3.png)
+![2](https://github.com/ultrmlvn/ELK/blob/SQL_2/2.png)
 
 ---
 
-### Задание 4. Filebeat
+### Задание 3.
 
-Установите и запустите Filebeat. Переключите поставку логов Nginx с Logstash на Filebeat.
+Получите информацию, за какой месяц была получена наибольшая сумма платежей, и добавьте информацию по количеству аренд за этот месяц.
 
-Приведите скриншот интерфейса Kibana, на котором видны логи Nginx, которые были отправлены через Filebeat.
+![3](https://github.com/ultrmlvn/ELK/blob/SQL_2/3.png)
 
-![4](https://github.com/ultrmlvn/ELK/blob/main/4.png)
+---
